@@ -1,0 +1,6 @@
+services:
+  remote:
+    build: .
+    shm_size: 32gb
+    ports:
+      - "80:80"
